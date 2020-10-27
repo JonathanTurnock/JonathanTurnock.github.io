@@ -23,6 +23,11 @@ module.exports = {
         // },
         { to: "blog", label: "Blog", position: "right" },
         {
+          href: "https://medium.com/@jonathan.turnock",
+          label: "Medium",
+          position: "right",
+        },
+        {
           href: "https://github.com/JonathanTurnock",
           label: "GitHub",
           position: "right",

@@ -23,3 +23,31 @@
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
 }
+
+.navbar__item.navbar__link[href*="github"] {
+    display: flex;
+    font-size: 0;
+    padding: 0 12px;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: url("/img/brands/github-square-brands.svg");
+    background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="medium"] {
+    display: flex;
+    font-size: 0;
+    padding: 0px;
+}
+
+.navbar__item.navbar__link[href*="medium"]:before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: url("/img/brands/medium-brands.svg");
+    background-repeat: no-repeat;
+}
