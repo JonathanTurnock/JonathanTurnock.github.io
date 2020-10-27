@@ -89,15 +89,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl:
             "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop/blog",
+            "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
