@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'Jonathan Turnock',
-  tagline: 'Software & Technology',
-  url: 'https://jonathanturnock.github.io/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'JonathanTurnock', // Usually your GitHub org/user name.
-  projectName: 'JonathanTurnock.github.io', // Usually your repo name.
+  title: "Jonathan Turnock",
+  tagline: "Software & Technology",
+  url: "https://jonathanturnock.github.io/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon.ico",
+  organizationName: "JonathanTurnock", // Usually your GitHub org/user name.
+  projectName: "JonathanTurnock.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "My Site",
       logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',
+        alt: "Logo",
+        src: "img/logo.svg",
       },
       items: [
         // {
@@ -21,27 +21,27 @@ module.exports = {
         //   label: 'Docs',
         //   position: 'left',
         // },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        { to: "blog", label: "Blog", position: "right" },
         {
-          href: 'https://github.com/JonathanTurnock',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/JonathanTurnock",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Pet Projects',
+          title: "Pet Projects",
           items: [
             {
-              label: 'Geoffrey',
-              to: 'https://bitbucket.org/fxqlabs-oss/geoffrey/src/master/',
+              label: "Geoffrey",
+              to: "https://bitbucket.org/fxqlabs-oss/geoffrey/src/master/",
             },
             {
-              label: 'Kodiak',
-              to: 'https://bitbucket.org/fxqlabs-oss/kodiak/src/master/',
+              label: "Kodiak",
+              to: "https://bitbucket.org/fxqlabs-oss/kodiak/src/master/",
             },
           ],
         },
@@ -63,19 +63,19 @@ module.exports = {
         //   ],
         // },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/JonathanTurnock',
+              label: "GitHub",
+              href: "https://github.com/JonathanTurnock",
             },
             {
-              label: 'BitBucket',
-              href: 'https://bitbucket.org/fxqlabs-oss/',
+              label: "BitBucket",
+              href: "https://bitbucket.org/fxqlabs-oss/",
             },
           ],
         },
@@ -85,22 +85,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop/blog",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
