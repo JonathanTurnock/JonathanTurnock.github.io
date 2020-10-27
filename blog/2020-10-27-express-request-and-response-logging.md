@@ -1,5 +1,5 @@
 ---
-slug: hola
+slug: express-request-and-response-logging
 title: Express Request & Response Logging
 author: Jonathan Turnock
 author_title: Software Engineer
