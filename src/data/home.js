@@ -2,33 +2,30 @@ import React from "react";
 
 export const features = [
   {
-    title: "Easy to Use",
+    title: "Personal Blog",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
+    link: "blog/",
+    description: (
+      <>My personal blog about random topics in software & engineering</>
+    ),
+  },
+  {
+    title: "🔗 Nim Tutorials",
+    imageUrl: "img/nim-logo.svg",
+    link: "https://jonathanturnock.github.io/nim-tutorials/docs",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Nim Tutorials microsite for all things Nim, a new language which I am
+        very excited about.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    title: "🔗 Civ VI Modding Wiki",
+    imageUrl: "img/civ-iv-logo.svg",
+    link: "https://jonathanturnock.github.io/civ-vi-modding/docs",
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: "Powered by React",
-    imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <>A microsite for learning Lua and some video game modding as a hobby.</>
     ),
   },
 ];

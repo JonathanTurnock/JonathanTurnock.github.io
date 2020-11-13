@@ -7,6 +7,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import { Feature } from "../components/Feature";
 import { features } from "../data/home";
+import { LandingPageLink } from "../components/LandingPageLink";
 
 export default () => {
   const context = useDocusaurusContext();
@@ -20,17 +21,15 @@ export default () => {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                "button button--outline button--secondary button--lg",
-                styles.getStarted
-              )}
-              to={useBaseUrl("blog/")}
-            >
-              Blogs 📚
-            </Link>
-          </div>
+          {/*<LandingPageLink label={"Blogs 📚"} url="blog/" />*/}
+          {/*<LandingPageLink*/}
+          {/*  label={"Nim Tutorials 👑"}*/}
+          {/*  url="https://jonathanturnock.github.io/nim-tutorials/docs"*/}
+          {/*/>*/}
+          {/*<LandingPageLink*/}
+          {/*  label={"Civ VI Modding Wiki"}*/}
+          {/*  url="https://jonathanturnock.github.io/civ-vi-modding/docs"*/}
+          {/*/>*/}
         </div>
       </header>
       <main>

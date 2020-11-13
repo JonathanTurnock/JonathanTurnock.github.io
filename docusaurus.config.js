@@ -1,6 +1,6 @@
 module.exports = {
   title: "Jonathan Turnock",
-  tagline: "Software & Technology",
+  tagline: "Software, Technology 👩‍💻 and a Sprinkle of Gaming 🎮",
   url: "https://jonathanturnock.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -93,6 +93,11 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl:
+            "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop",
+        },
+        docs2: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
             "https://github.com/JonathanTurnock/JonathanTurnock.github.io/edit/develop",
